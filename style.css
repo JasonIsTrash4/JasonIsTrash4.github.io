@@ -1,5 +1,5 @@
 p{
-	color: red;
+	color: darkgreen ;
 	background-color: lightgrey ;
 }
 h1 {
@@ -8,6 +8,6 @@ h1 {
 body {
 	background-color: grey;
 }
-ol {
-	color: green;
+li {
+	color: white ;
 }
