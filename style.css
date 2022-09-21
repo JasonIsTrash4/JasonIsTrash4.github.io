@@ -1,13 +1,5 @@
-p{
-	color: darkgreen ;
-	background-color: lightgrey ;
-}
-h1 {
-	color: yellow ;
-}
+
 body {
-	background-color: grey;
-}
-li {
-	color: white ;
+
+	background: linear-gradient(174deg, rgba(226,0,255,0.5046393557422969) 35%, rgba(9,121,52,0.6923144257703081) 41%);
 }
