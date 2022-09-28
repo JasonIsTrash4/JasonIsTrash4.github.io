@@ -1,5 +1,29 @@
-
-body {
-
-	background: linear-gradient(174deg, rgba(226,0,255,0.5046393557422969) 35%, rgba(9,121,52,0.6923144257703081) 41%);
+.container {
+	display: flex;
+	background-color: #FF8630;
+	flex-wrap: nowrap;
 }
+
+.item {
+	flex-grow: 1;
+	flex-basis: 0;
+	flex-wrap
+}
+
+}
+/body
+.hero {
+	height: 100vh;
+	background-color:  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%); ;
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	justify-content: center;
+	align-content: center
+}
+
+ hero h1{
+ 	margin: 0;
+ 	font-size: 150px
+ }
