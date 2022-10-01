@@ -1,21 +1,10 @@
-.container {
-	display: flex;
-	background-color: #FF8630;
-	flex-wrap: nowrap;
+
+body {
+	margin: 0
 }
 
-.item {
-	flex-grow: 1;
-	flex-basis: 0;
-	flex-wrap
-}
-
-}
-/body
 .hero {
 	height: 100vh;
-	background-color:  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%); ;
 	background-size: cover;
 	background-position: center;
 	display:flex;
@@ -23,7 +12,23 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(
 	align-content: center
 }
 
- hero h1{
+.hero h1{
  	margin: 0;
  	font-size: 150px
+ 	color: fff;
+ }
+ .menu {
+ 	display: flex ;
+ 	list-style-type: none;
+ 	align-items: center;
+ 	column-gap:50px ;
+ 	padding: 0;
+ }
+ .menu a{
+ 	color: #0000ff;
+ 	align-items: center;
+ }
+
+ .text-center {
+ 	text-align: center;
  }
