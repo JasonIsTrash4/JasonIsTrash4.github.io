@@ -1,25 +1,29 @@
-body{
-	margin: 0;
-	font-family: 'Inter'
-	font-style: normal;
-	font-weight:400
-	box-sizing: content-box; 
-
+body {
+    margin: 0;
 }
- header {
- 	display: flex;
- 	margin: 0 auto 56px;
- }
 
- .header_item{
- 	flex-grow:1 ;
- 	flex-basis:center ;
- }
- .left {
- 	background-color: #123;
- }
-
- .main{
- 	display: flex ;
+.main {
+    max-width: 1939px;
+    height: 100vh;
+    margin: 0 auto;
 }
-.
+
+.header_top{
+    display: flex;
+}
+
+.header_contacts{
+    flex-grow: 4;
+    flex-basis: 0 ;
+}
+
+.header_title{
+    flex-grow: 8;
+    flex-basis: 0
+}
+
+header{
+
+    background-image:url("img/главное фото.png") ;
+    height: 100vh;
+}
